@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+
+}
+
+.navbar{
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+  
+    display: flex; /* elements within it eill appear side by side in row by default*/
+}
+.nav-list{
+    width: 50%;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;    
+}
+.nav-list li{
+    font-size: 23px;
+    list-style: none;
+    color: white;
+    padding:26px 30px;
+
+}
+.nav-list li a:hover{
+    background-color:white;
+    color:indigo;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightnav{
+    /* background-color: blue; */
+    width: 50%;
+    text-align: right;
+
+}
+#search{
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.background{
+    background: rgba(0,0, 0,0.7) url('../img/img.jpg');
+    background-size: cover;
+
+    background-blend-mode: darken;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.705) ;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.text-big{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+.text-small{
+    font-size:18px;
+}
+hr{
+    border-style: none;
+    margin: auto;
+    width: 50%;
+    border-top: 10px dotted grey;
+}
+.line{
+    border-style: none;
+    margin: auto;
+    width: 30%;
+    border-top: 4px dashed grey;
+    
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 8px 10px;
+    margin: 7px 3px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn:hover{
+    
+    background: gold;
+    color: rgb(66, 11, 11);
+    border: 2px solid  rgb(66, 11, 11);
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.menu{
+    /* align-items: center; */
+    cursor: pointer;
+    justify-content: center;
+    width: 50%;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;    
+}
+.menu li{
+    font-size: 23px;
+    display: flex;
+    list-style: square;
+    color: grey;
+    padding:6px 6px;
+
+}
+.menu li a:hover{
+    
+    color: red;
+}
+.menu li a{
+    text-decoration: none;
+    color: grey;
+}
+.sec{
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:70%;
+    margin: auto;
+    font-family: 'Lobster Two', cursive;
+}
+.left{
+    
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.secSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.thumbnail{
+    padding: 0px;
+    padding-top: 35px;
+    width: 180px 180px;
+}
+.thumbnail img{
+    
+    max-width: 180px;
+    height: auto;
+}
+.h1{
+    text-align: left;
+}
+.h2{
+    text-align: right;
+}
+.contact{
+    background: rgb(34, 34, 34);
+    height: 70vh;
+    color: white;
+
+}
+.text{
+    padding: 20px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.form{
+    max-width: 45%;
+    margin: auto;
+
+}
+.form input,textarea{
+    margin: 15px 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: cursive;
+}
+.text-footer{
+    text-align: center;
+    font-size: 20px;
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+    color:white;
+    background:  rgba(0,0, 0,0.7) url('../img/breakfast-buffet-food-restaurant-preview_20200624141032.jpg');
+    opacity: 0.8;
+    padding: 15px 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* .burger{ 
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right:10%;
+    top: 15px;
+}
+.lines{
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    margin: 4px 15px;
+}
+
+    @media only screen and (max-width:846px){
+        .nav-list{
+            flex-direction: column;
+        }
+        .navbar{
+            flex-direction: column;
+            transition: all 0.7s ease-out;
+            height: 447px;
+        }
+        .rightnav{
+            text-align: center;
+
+        }
+        #search{
+            width: 100%;
+        }
+        /*.burger{
+            display: block;
+        }
+        .h-nav-resp{
+            height: 80px;
+        }
+        .v-class-resp{
+            opacity: 0;
+        }
+        html{
+            font-size: 55%;
+        }
+        .box-main{
+            max-width: 100%;
+            flex-direction: column;
+        }
+        .section{
+            flex-direction: column-reverse;
+        }
+        .text-small{
+            text-align: center;
+        }
+        .text-big{
+            text-align: center;
+        }
+        .button{
+            text-align: center;
+        }
+        .paras{
+            padding: 0px;
+        }
+
+    }*/
+        
+    
